@@ -48,6 +48,7 @@
 }
 
 
+
 .terminos p {
     font-family: "Inter";
     font-style: normal;
@@ -115,6 +116,10 @@
   margin: 0.3%;
   width: 24.5%;
   padding: 1.8%;
+}
+
+.btn-copiar:hover{
+  transform: scale(1.1);
 }
 
 
@@ -205,6 +210,25 @@
     margin-top: 35px;
    
 }
+
+.btn-copiar{
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  gap: 8px;
+  width: 25%;
+  color: #fff;
+  position: absolute;
+  background-color: #0a3871;
+  border-radius: 24px;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  top: 220%;
+  left: 40%;
+}
+
 
 
 @media (max-width: 57.5em) {
