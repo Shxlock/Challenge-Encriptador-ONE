@@ -294,6 +294,8 @@
       display: none;
       visibility: hidden;
     }
+    
+    
 }
 
 @media (max-width: 242px) {
@@ -304,6 +306,7 @@
         justify-content: flex-start;
  
     }
+    
 }
 
 .imagen-alura:hover{
